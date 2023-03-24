@@ -1,5 +1,5 @@
 # Stremio-RaspberryPi
-![github-small](https://github.com/m0k1/Stremio-RaspberryPi/blob/images/Banner.jpg)  
+![github-small](https://github.com/m0k1/Stremio-RaspberryPi/blob/master/images/Banner.jpg)  
 
 
 
@@ -67,7 +67,7 @@
     ```   
 3.  Change directory using:    
     ```   
-    cd stremio-shell && wget https://github.com/m0k1/Stremio-RaspberryPi/blob/APT-Packages.txt  
+    cd stremio-shell && wget https://github.com/m0k1/Stremio-RaspberryPi/raw/master/APT-Packages.txt
     ```
 4.  Install dependencies using:     
     ```    
