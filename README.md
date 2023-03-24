@@ -1,7 +1,5 @@
 # Stremio-RaspberryPi
-![github-small](https://github.com/shivasiddharth/Stremio-RaspberryPi/blob/Awesome/images/Banner.jpg)     
-
-## **If you like the work and if you would like to get me a :coffee: :smile:** [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7GH3YDCHZ36QN)  
+![github-small](https://github.com/m0k1/Stremio-RaspberryPi/blob/images/Banner.jpg)  
 
 
 
@@ -37,11 +35,11 @@
 5.  Perform the installation as given below (Replace x.x.xxx with the version numbers on the file):    
     64-Bit Users:    
     ```    
-    sudo apt-get install ./libfdk-aac1_0.1.6-1_arm64.deb ./stremio_x.x.xxx-1_arm64.deb -f   
+    sudo apt-get install ./libfdk-aac1_0.1.6-1_arm64.deb ./stremio_*-1_arm64.deb -f   
     ```   
     32-Bit Users:    
     ```    
-    sudo apt-get install ./libfdk-aac1_0.1.6-1_armhf.deb ./stremio_x.x.xxx-1_armhf.deb -f   
+    sudo apt-get install ./libfdk-aac1_0.1.6-1_armhf.deb ./stremio_*-1_armhf.deb -f   
     ```   
 6.  Now you should have Stremio installed. Grab some snacks and enjoy the show.       
 
@@ -65,15 +63,15 @@
     ```   
 2.  Clone the stremio-shell using:   
     ```   
-    git clone --recurse-submodules -j8 git://github.com/shivasiddharth/stremio-shell.git      
+    git clone --recurse-submodules -j8 git://github.com/Stremio/stremio-shell.git      
     ```   
 3.  Change directory using:    
     ```   
-    cd /home/${USER}/stremio-shell/             
+    cd stremio-shell && wget https://github.com/m0k1/Stremio-RaspberryPi/blob/APT-Packages.txt  
     ```
 4.  Install dependencies using:     
     ```    
-    sed 's/#.*//' ./Requirements.txt | xargs sudo apt-get install -y    
+    sed 's/#.*//' ./APT-Packages.txt | xargs sudo apt-get install -y    
     ```     
 5.  Make using:   
     ```   
@@ -102,12 +100,12 @@
 ## Note     
 **********        
 1.  After the ```sudo apt-get update``` command for adding sources, if you get a key error like shown below:   
-    ![github-small](https://github.com/shivasiddharth/Stremio-RaspberryPi/blob/Awesome/images/Key_Error.png)       
+    ![github-small](https://github.com/m0k1/Stremio-RaspberryPi/blob/images/Key_Error.png)       
     Fix the issue using (Replace XXXXXXXXXXXX with the first alphanumeric character key):    
     ```    
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys XXXXXXXXXXXX     
     ```      
 2.  For remote access of server, go into setting and select your IP address from the **Enable remote HTTPS connections** dropdown menu as shown below.    
-    ![github-small](https://github.com/shivasiddharth/Stremio-RaspberryPi/blob/Awesome/images/Remote-connection.png)      
+    ![github-small](https://github.com/m0k1/Stremio-RaspberryPi/blob/images/Remote-connection.png)      
 3.  For accessing the Stremio server remotely and securely (Expecially from Apple devices), use the **Streaming HTTPS endpoint:** link as shown below.   
-    ![github-small](https://github.com/shivasiddharth/Stremio-RaspberryPi/blob/Awesome/images/Streaming-Server-Link.png)  
+    ![github-small](https://github.com/m0k1/Stremio-RaspberryPi/blob/images/Streaming-Server-Link.png)  
