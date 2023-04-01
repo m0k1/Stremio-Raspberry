@@ -1,5 +1,5 @@
 # Stremio-RaspberryPi
-![github-small](https://github.com/m0k1/Stremio-RaspberryPi/blob/master/images/Banner.jpg?raw=true)  
+![github-small](https://github.com/m0k1/Stremio-Raspberry/blob/master/images/Banner.jpg?raw=true)
 
 
 
