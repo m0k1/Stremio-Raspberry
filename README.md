@@ -1,5 +1,5 @@
 # Stremio-RaspberryPi
-![github-small](https://github.com/m0k1/Stremio-RaspberryPi/blob/master/images/Banner.jpg)  
+![github-small](https://github.com/m0k1/Stremio-RaspberryPi/blob/master/images/Banner.jpg?raw=true)  
 
 
 
@@ -100,12 +100,13 @@
 ## Note     
 **********        
 1.  After the ```sudo apt-get update``` command for adding sources, if you get a key error like shown below:   
-    ![github-small](https://github.com/m0k1/Stremio-RaspberryPi/blob/images/Key_Error.png)       
+    ![github-small]
+ https://github.com/m0k1/Stremio-Raspberry/blob/master/images/Banner.jpg?raw=true   (https://github.com/m0k1/Stremio-RaspberryPi/blob/master/images/Key_Error.png?raw=true)       
     Fix the issue using (Replace XXXXXXXXXXXX with the first alphanumeric character key):    
     ```    
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys XXXXXXXXXXXX     
     ```      
 2.  For remote access of server, go into setting and select your IP address from the **Enable remote HTTPS connections** dropdown menu as shown below.    
-    ![github-small](https://github.com/m0k1/Stremio-RaspberryPi/blob/images/Remote-connection.png)      
+    ![github-small](https://github.com/m0k1/Stremio-RaspberryPi/blob/master/images/Remote-connection.png?raw=true)      
 3.  For accessing the Stremio server remotely and securely (Expecially from Apple devices), use the **Streaming HTTPS endpoint:** link as shown below.   
     ![github-small](https://github.com/m0k1/Stremio-RaspberryPi/blob/images/Streaming-Server-Link.png)  
